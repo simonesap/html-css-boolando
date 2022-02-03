@@ -26,7 +26,8 @@ main{
     display: inline-block;
     width: 30%;
     height: 65vh;
-    margin: 0vh 0 12vh 2%;  
+    margin: 0vh 0 12vh 2%;
+    cursor:pointer;  
 }
 
 img{
@@ -86,5 +87,30 @@ img{
 }
 
 
+/* HOVER */
 
+.uno:hover{
+    content: url("../img/1b.webp");
+}
 
+.due:hover{
+    content: url("../img/2b.webp");
+}
+
+.tre:hover{
+    content: url("../img/3b.webp");
+}
+
+.quattro:hover{
+    content: url("../img/4b.webp");
+}
+
+.cinque:hover{
+    content: url("../img/5b.webp");
+}
+
+.sei:hover{
+    content: url("../img/6b.webp");
+}
+
+/* HOVER */
