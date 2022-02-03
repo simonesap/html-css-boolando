@@ -4,22 +4,87 @@
     box-sizing: border-box;
 }
 
+/* BODY */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 main{
     position: relative;
     margin: 3vh 15% 3vh 15%;
-    display: inline-block;
 }
+
+/* BODY */
+
+/* UTILITY */
 
 .product{
     position: relative;
     display: inline-block;
     width: 30%;
     height: 65vh;
-    margin: 0vh 0 8vh 2%;  
+    margin: 0vh 0 12vh 2%;  
 }
 
 img{
     width: 100%;
     height: 100%;
 }
+
+.heart{
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    padding: 4px 8px 4px 8px;
+    background-color: white;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 2vh;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+.sustain{
+    position: absolute;
+    display: inline-block;
+    bottom: 2vh;
+    left: 13%;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(8, 185, 132);
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+} 
+
+.new-price{
+    background-color: transparent;
+    color: red;
+}
+
+.old-price{
+    background-color: transparent;
+    text-decoration-line: line-through;
+}
+
+.info-product{
+    font-size: 1em;
+}
+
+/* UTILITY */
+
+.solo{
+    left: 0;
+}
+
+
+
 
